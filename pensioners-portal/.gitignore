@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.next/
+out/
+build/
+*.log
+.DS_Store
+.cache/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+!backend/.env.cpanel.example
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production
