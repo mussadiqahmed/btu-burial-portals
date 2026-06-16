@@ -47,9 +47,6 @@ deploy/final-audit-results.json
 deploy/package.json
 deploy/package-lock.json
 
-# Local-only projects (not part of this repo)
-Endless-Portal/
-
 # Root scratch files
 newportal.md
 tombstonenewportal.md

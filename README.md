@@ -6,6 +6,7 @@ Production-ready web portals for **BOTUBS** (Burial Society) — pensioners and 
 |--------|-----------|----------|
 | [Pensioners Portal](./pensioners-portal/) | `pensioners.btuburial.co.bw` | `btuburia_pensioner` |
 | [Tombstones Portal](./tombstones-portal/) | `tombstones.btuburial.co.bw` | `btuburia_tombstones` |
+| [Endless Portal](./Endless-Portal/) | `eem.co.bw` / `api.eem.co.bw` | `endlesse_website` |
 
 Both portals share the same architecture: **Next.js** static frontend + **Node.js/Express** API on cPanel, with member data read from `btuburia_web`.`Members-New`.
 
@@ -21,6 +22,10 @@ btu-burial-portals/
     ├── backend/
     ├── frontend/
     └── deploy/
+└── Endless-Portal/
+    ├── backend/
+    ├── frontend/
+    └── deploy/
 ```
 
 ## Quick start (local)
@@ -29,6 +34,7 @@ Each portal is independent. See the portal README for setup:
 
 - [Pensioners Portal — README](./pensioners-portal/README.md)
 - [Tombstones Portal — README](./tombstones-portal/README.md)
+- [Endless Portal — README](./Endless-Portal/README.md)
 
 ## Production deployment
 
